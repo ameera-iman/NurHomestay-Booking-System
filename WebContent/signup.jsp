@@ -44,13 +44,14 @@
                 <a href="login.jsp">Log In/Sign Up</a>
               </div>
             </header>
+            
             <!-- Forms -->
             <section class="forms">
               <div class="container-fluid">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="section-heading">
-                      <p><a href="signup.jsp">Back</a></p>
+                      <p><a href="login.jsp">Back</a></p>
                     <h2>Sign Up</h2>
                     </div>
                     <form id="contact" action="" method="post">
@@ -97,29 +98,17 @@
                 </div>
               </div>
             </section>
-
+            
           </div>
         </div>
-            
-        </div>
-        
+      </div>
+      
       <div class="footer">
           Instagram<br><br>
           Facebook<br><br>
           <br><br><br>
           &#169; 2020 Pilot. All rights reserved
       </div>
-
-
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/transition.js"></script>
-    <script src="assets/js/custom.js"></script>
 </body>
 
 

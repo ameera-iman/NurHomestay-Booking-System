@@ -99,8 +99,7 @@
         <br><br><br>
         &#169; 2020 Pilot. All rights reserved
     </div>
-      
-      
+    
       <script>
       function openNav() {
         document.getElementById("mySidenav").style.width = "250px";

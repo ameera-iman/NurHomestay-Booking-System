@@ -158,7 +158,7 @@
                         It is perfect for duo, or family vacation to create memories with a comfortable homestay to stay! 
                         Not only that, the homestay is near at Melaka's tourist attraction. You can come over anytime as long as the it is still open :)</p>
                       <div class="primary-button">
-                        <a href="#">Read More</a>
+                        <a href="rumahinfo.jsp">Read More</a>
                       </div>
                     </div>
                   </div>
@@ -182,34 +182,23 @@
                       expressive decor and artistry, and magnificent features. Add great service, and the 
                       result is an unforgettable guest experience.</p>
                       <div class="primary-button">
-                        <a href="#">Read More</a>
+                        <a href="about.jsp">Read More</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </section>
-
           </div>
         </div>
-
     </div>
 
-  <div class="footer">
-      Instagram<br><br>
-      Facebook<br><br>
-      <br><br><br>
-      &#169; 2020 Pilot. All rights reserved
-  </div>
+	  <div class="footer">
+	      Instagram<br><br>
+	      Facebook<br><br>
+	      <br><br><br>
+	      &#169; 2020 Pilot. All rights reserved
+	  </div>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/transition.js"></script>
-    <script src="assets/js/custom.js"></script>
 </body>
-
 </html>

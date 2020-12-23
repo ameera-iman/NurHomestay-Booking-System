@@ -45,6 +45,17 @@
       <section class="main-banner">
         <div class="container-fluid">
       <div class="row">
+      <div class="column">
+            <div class="card">
+                <!-- nak buh gambaq ka??
+                <img src="img.jpg" alt="John" style="width:100%"> --> 
+               
+                <h1>TUKAQQQQQ</h1>
+                <!-- <p class="title">CEO & Founder, Example  TUKAQQQQQQQ</p>
+                <p>Harvard University  TUKAQQQQQQQ</p> -->
+                <p><a href="stafflisthomestay.jsp"><button>Back</button></a></p>
+              </div>
+        </div>
         <div class="column-1">
             <h2>View Homestay</h2><br/><br/>
             <table>
@@ -77,19 +88,17 @@
                     <td>RM 500 = 1 night</td>
                 </tr>
             </table>
-            <center><a href="stafflisthomestay.jsp"><button>Back</button></a></center>
             </div>
         </div>
       </div>
       </section>
 
-      <div class="footer">
-        Instagram<br><br>
-        Facebook<br><br>
-        <br><br><br>
-        &#169; 2020 Pilot. All rights reserved
-    </div>
-      
+		<div class="footer">
+		  Instagram<br><br>
+		  Facebook<br><br>
+		  <br><br><br>
+		  &#169; 2020 Pilot. All rights reserved
+		</div>
       
       <script>
       function openNav() {
@@ -101,5 +110,4 @@
       }
       </script>
   </body>
-
 </html>

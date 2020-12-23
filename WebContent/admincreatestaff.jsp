@@ -32,7 +32,7 @@
 
       <!-- Header -->
       <header id="header" style="margin-top: 0px;">
-        <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 30px;" onclick="openNav()">&#9776;</span>
+        <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 25px;" onclick="openNav()">&#9776;</span>
         <div class="logo">
           <img src="assets/images/logo nurhomestay6.png">
         </div>
@@ -45,17 +45,17 @@
       <section class="main-banner">
         <div class="container-fluid">
       <div class="row">
-        <!-- <div class="column">
+        <div class="column">
             <div class="card">
-                nak buh gambaq ka??
-                <img src="img.jpg" alt="John" style="width:100%"> 
+                <!-- nak buh gambaq ka??
+                <img src="img.jpg" alt="John" style="width:100%"> --> 
                
                 <h1>TUKAQQQQQ</h1>
-                <p class="title">CEO & Founder, Example  TUKAQQQQQQQ</p>
-                <p>Harvard University  TUKAQQQQQQQ</p>
-                <p><a href="staffprofile.html"><button>Submit</button></a></p>
+                <!-- <p class="title">CEO & Founder, Example  TUKAQQQQQQQ</p>
+                <p>Harvard University  TUKAQQQQQQQ</p> -->
+                <p><a href="adminliststaff.jsp"><button>Back</button></a></p>
               </div>
-        </div> -->
+        </div>
         <div class="column-1">
             <h2>Create Staff Profile</h2><br/><br/>
             <table>
@@ -71,8 +71,8 @@
                 </tr>
             </table>
             <br><br>
-            <center><a href="adminliststaff.jsp"><button>Create</button></a><a href="adminliststaff.jsp"><button>Cancel</button></a></center>
-
+            <center><a href="adminliststaff.jsp"><button>Create</button></a></center>
+			</div>
         </div>
       </div></section>
 
@@ -82,9 +82,8 @@
         <br><br><br>
         &#169; 2020 Pilot. All rights reserved
     </div>
-      
-      
-      <script>
+    
+    <script>
       function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
       }

@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <title>Update Profile</title>
+    <title>View Homestay</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -45,65 +45,58 @@
       <section class="main-banner">
         <div class="container-fluid">
       <div class="row">
-        <div class="column">
+      <div class="column">
             <div class="card">
                 <!-- nak buh gambaq ka??
-                <img src="img.jpg" alt="John" style="width:100%">  -->
+                <img src="img.jpg" alt="John" style="width:100%"> --> 
                
-                <h1>Aiman Harith</h1>
+                <h1>TUKAQQQQQ</h1>
                 <!-- <p class="title">CEO & Founder, Example  TUKAQQQQQQQ</p>
                 <p>Harvard University  TUKAQQQQQQQ</p> -->
-                <p><a href="staffprofile.jsp"><button>View</button></a></p>
+                <p><a href="stafflistreservation.jsp"><button>Back</button></a></p>
               </div>
         </div>
         <div class="column-1">
-            <h2> Update Profile user</h2><br/><br/>
+            <h2>View Reservation</h2><br/><br/>
             <table>
+                <!-- boleh use klau perlu -->
                 <tr>
-                    <td class="labelsize"><label>Staff ID</label></td>
+                    <td class="labelsize"><label>Reservation ID</label></td>
                     <td class="double-dot">:</td>
-                    <td>S20</td>
+                    <td>123</td>
                 </tr>
                 <tr>
-                    <td class="labelsize"><label>Staff Name</label></td>
+                    <td class="labelsize"><label>Customer Name</label></td>
                     <td class="double-dot">:</td>
-                    <td><input name="staff_name" type="text" class="form-control" id="name" placeholder="Name" required=""></td>
+                    <td>Meow</td>
                 </tr>
                 <tr>
-                    <td class="labelsize"><label>Phone No</label></td>
+                    <td class="labelsize"><label>Check In</label></td>
                     <td class="double-dot">:</td>
-                    <td><input name="staff_phone" type="text" class="form-control" id="phoneno" placeholder="Phone Number" required=""></td>
+                    <td>date</td>
                 </tr>
                 <tr>
-                    <td class="labelsize"><label>Address</label></td>
+                    <td class="labelsize"><label>Check Out</label></td>
                     <td class="double-dot">:</td>
-                    <td><textarea name="cust_address" id="demo-message" placeholder="Address" rows="6"></textarea></td>
+                    <td>date</td>
                 </tr>
                 <tr>
-                    <td class="labelsize"><label>Email</label></td>
+                    <td class="labelsize"><label>Homestay</label></td>
                     <td class="double-dot">:</td>
-                    <td><input name="cust_email" type="text" class="form-control" id="email" placeholder="Email" required=""></td>
-                </tr>
-                <tr>
-                    <td class="labelsize"><label>Admin ID</label></td>
-                    <td class="double-dot">:</td>
-                    <!-- <td>kalau bukan ltk null je kot</td> -->
-                    <td><input type="text" class="form-control" id="admin" placeholder="Admin"></td>
+                    <td>taman sejuk</td>
                 </tr>
             </table>
-            <br><br>
-            <center><a href="staffprofile.jsp"><button>Update</button></a><a href="staffprofile.jsp"><button>Cancel</button></a></center>
-			</div>
+            </div>
         </div>
-      </div></section>
+      </div>
+      </section>
 
-      <div class="footer">
-        Instagram<br><br>
-        Facebook<br><br>
-        <br><br><br>
-        &#169; 2020 Pilot. All rights reserved
-    </div>
-      
+		<div class="footer">
+		  Instagram<br><br>
+		  Facebook<br><br>
+		  <br><br><br>
+		  &#169; 2020 Pilot. All rights reserved
+		</div>
       
       <script>
       function openNav() {
@@ -115,5 +108,4 @@
       }
       </script>
   </body>
-
 </html>

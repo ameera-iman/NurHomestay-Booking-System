@@ -54,9 +54,22 @@
                     <td><input name="homestayimg" type="file" class="form-control"></td>
                     <td><a href="#"><button>Add</button></a></td>
                 </tr>
-            </table>
+              </table>
+              <table>
+                <thead>
+                  <tr>
+                    <th colspan="2">Image</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#1011</td>
+                    <td><a href="#"><img class="useme" src="assets/images/trash-1.png"></a></td>
+                  </tr>
+                </tbody>
+              </table>
             <br><br>
-            <center><a href="stafflisthomestay.jsp"><button>Done</button></a></center>
+      			<center><a href="stafflisthomestay.jsp"><button>Done</button></a></center>
 			</div>
         </div>
       </div>

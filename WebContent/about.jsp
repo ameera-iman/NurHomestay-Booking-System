@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -63,25 +65,29 @@
               </div>
               <div class="column-1">
                   <h2>Company background</h2>
-                  <p>why NurHomestay?
-Here we provide wonderful home environment from the busy city life. We welcome you with warm friendly atmosphere and great service! Let Nur  Homestay always your first choice and create unforgettable moments!</p>
+                  <p>Why NurHomestay? <br>Here we provide wonderful home environment from the busy
+                   city life. We welcome you with warm friendly atmosphere and great service! Let Nur
+                    Homestay always your first choice and create unforgettable moments!</p>
                   <br/><br/>
                   <h2>Mission</h2>
-                  <p>For each traveler coming the country to have the experience of staying in a Nur Homestay Melaka because meeting locals is the beauty of the Melaka.</p>
+                  <p>For each traveler coming the country to have the experience of staying in a Nur 
+                  Homestay Melaka because meeting locals is the beauty of the Melaka.</p>
                   <br/><br/>
                   <h2>Vision</h2>
-                  <p>To create moments that last a lifetime.
-To encourage shared cultural experiences.
-To show the world the underlying nature of hospitality, friendliness, positivity, present in all Philippines households. </p>
+                  <p>To create moments that last a lifetime.<br>To encourage shared cultural experiences.<br>
+                  To show the world the underlying nature of hospitality, friendliness, positivity, present 
+                  in our company. </p>
                   <br/><br/>
                   <h2>Contact Information</h2>
-                  <p>WS: <a href="https://wa.me/60126944086">Haslina</a></p>
-                  <p>FB: <a href="https://www.facebook.com/nurhomestaymlk">Nur Homestay Melaka</a></p>
-              </div></section>
+                  <p>WS: <a href="https://wa.me/60126944086" target="_blank">Haslina</a></p>
+                  <p>FB: <a href="https://www.facebook.com/nurhomestaymlk" target="_blank">Nur Homestay Melaka</a></p>
+              </div>
+              </div>
+              </div>
+              </section>
             </div>
           </div>
         </div>
-    </div>
 
     <!-- footer -->
   <div class="footer">
@@ -92,6 +98,5 @@ To show the world the underlying nature of hospitality, friendliness, positivity
   </div>
 
 </body>
-
 </html>
 

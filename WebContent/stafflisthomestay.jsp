@@ -60,7 +60,7 @@
                           <tbody>
                             <tr>
                               <td><a href="staffviewhomestay.jsp">Taman Pokok Manga 1</a></td>
-                              <td><a href="staffedithomestay.jsp"><img class="useme" src="assets/images/edit-1.png"></a></td>
+                              <td><a href="staffupdatehomestay.jsp"><img class="useme" src="assets/images/edit-1.png"></a></td>
                             </tr>
                             <tr>
                               <td><a href="#">Taman Pokok Manga 2</a></td>

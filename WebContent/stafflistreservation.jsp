@@ -58,15 +58,17 @@
                               <th>Customer Name</th>
                               <th>Check-in</th>
                               <th>Check-out</th>
-                              <th>Update</th>
+                              <th>Homestay</th>
+                              <th></th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>#1011</td>
+                              <td><a href="staffviewreservation.jsp">#1011</a></td>
                               <td>Nabila Hamizah</td>
                               <td>25 December 2020</td>
                               <td>30 December 2020</td>
+                              <td>Taman Mawar Murni</td>
                               <td><a href="staffupdatereservation.jsp"><img class="useme" src="assets/images/edit-1.png"></a></td>
                             </tr>
                             <tr>
@@ -74,6 +76,7 @@
                               <td>Syahid Fikri</td>
                               <td>14 December 2020</td>
                               <td>15 December 2020</td>
+                              <td>Taman Mawar Murni</td>
                               <td><a href="#"><img class="useme" src="assets/images/edit-1.png"></a></td>
                             </tr>
                             <tr>
@@ -81,6 +84,7 @@
                               <td>Azam Firdaus</td>
                               <td>10 November 2020</td>
                               <td>13 November 2020</td>
+                              <td>Taman Mawar Murni</td>
                               <td><a href="#"><img class="useme" src="assets/images/edit-1.png"></a></td>
                             </tr>
                           </tbody>

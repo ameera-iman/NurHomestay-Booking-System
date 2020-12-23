@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +22,7 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/homeimage.css">
 
-<script src="assets/js/homeimage.js"></script>
+	<script src="assets/js/homeimage.js"></script>
 
   </head>
 
@@ -46,7 +48,6 @@
               </div>
             </header>
 
-
             <section class="forms">
               <div align="center">
               <h2>Homestay Information</h2>
@@ -54,8 +55,6 @@
             </section>
             <br>
             
-
-
             <!-- Page Heading -->
             <div class="page-heading">
               <div class="container-fluid">
@@ -67,8 +66,8 @@
                       <button class="tablinks" onclick="openCity(event, 'PandanMurni1')">Taman Pandan Murni 1</button>
                       <button class="tablinks" onclick="openCity(event, 'PandanMurni2')">Taman Pandan Murni 2</button>
                       <button class="tablinks" onclick="openCity(event, 'PandanIndah')">Taman Pandan Indah</button>
-                    </center>
                     </div>
+                    </center>
                   </div>
                 </div>
               </div>
@@ -78,10 +77,10 @@
                   <div class="container-fluid">
                     <div class="row">
 
-                      Nur Homestay is a family business that prior our customer satisfaction for a vacation in Bandaraya Melaka. 
+                      <p>Nur Homestay is a family business that prior our customer satisfaction for a vacation in Bandaraya Melaka. 
                       It is perfect for duo, or family vacation to create memories with a comfortable homestay to stay! 
                       Not only that, the homestay is near at Melaka's tourist attraction. You can come over anytime as long as the it is still open :)
-                      
+                      </p>
                       <!-- Taman Pokok Manga 1-->
                   <div id="PokokManga" class="col-md-12 tabcontent">
                     <div class="slides fade">
@@ -241,11 +240,6 @@
                 </div> 
               </div>
             </section>
-
-
-
-            <!-- Simple Post -->
-            
           </div>
         </div>
     </div>
@@ -255,19 +249,7 @@
       Facebook<br><br>
       <br><br><br>
       &#169; 2020 Pilot. All rights reserved
-  </div>
-
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/transition.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/custom.js"></script>
+  	</div>
 
     <script type="text/javascript">
       function openCity(evt, cityName) {

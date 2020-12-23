@@ -32,7 +32,7 @@
 
       <!-- Header -->
       <header id="header" style="margin-top: 0px;">
-        <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 30px;" onclick="openNav()">&#9776;</span>
+        <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 25px;" onclick="openNav()">&#9776;</span>
         <div class="logo">
           <img src="assets/images/logo nurhomestay6.png">
         </div>
