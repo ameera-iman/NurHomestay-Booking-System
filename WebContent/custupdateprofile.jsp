@@ -112,7 +112,8 @@
                       <br><br>
                       <center><button>Update</button></center>
                     </form>
-                  </div></section>
+                  </div></div></div>
+                  </section>
                 </div>
             </div>
           </div>

@@ -45,7 +45,9 @@
               </div>
             </header>
 
-            <div class="row">
+            <section class="main banner">
+            <div class="container-fluid">
+              <div class="row">
                 <div class="column">
                     <div class="card">
                         <!--nak buh gambaq ka??
@@ -93,6 +95,8 @@
                     </table>
                 </div>
               </div>
+            </div>
+            </section>
           </div>
         </div>
     </div>
