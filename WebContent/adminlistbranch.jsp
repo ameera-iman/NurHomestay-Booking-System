@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <title>Reservation</title>
+    <title>List Homestay</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,61 +23,56 @@
   </head>
 
   <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="adminliststaff.jsp">Staff</a>
+        <a href="adminlistbranch.jsp">Branch</a>
+        <a href="adminsalereport.jsp">Sales Report</a>
+      </div>
 
-      <!-- Main -->
-        <div id="main">
-          <div class="inner">
-
-            <!-- Header -->
-            <header id="header">
-              <div class="logo">
-                <a href="index.jsp"><img src="assets/images/logo nurhomestay6.png"></a>
-              </div>
-              <div class="kemana-kita">
-                <a href="afterindex.jsp">Home</a>
-                <a href="custprofile.jsp">Profile</a>
-                <a href="reservation.jsp">Reservation</a>
-                <a href="afterabout.jsp">About Us</a>
-                <a href="index.jsp">Logout</a>
-              </div>
-            </header>
+      <!-- Header -->
+      <header id="header" style="margin-top: 0px;">
+        <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 25px;" onclick="openNav()">&#9776;</span>
+        <div class="logo">
+          <img src="assets/images/logo nurhomestay6.png">
+        </div>
+        <div class="kemana-kita">
+          <a href="index.jsp">Log Out</a>
+        </div>
+      </header>
 
             <!-- list reservation -->
             <section class="tables">
                 <div class="container-fluid">
                   <div class="row">
                     <div class="col-md-12">
-                        <a href="index.jsp"><img class="useme" src="assets/images/plus.png" alt="add reservation"></a>
-                      <div class="section-heading">
-                        <h2>Reservation</h2>
+                        <a href="adminaddbranch.jsp"><img class="useme" src="assets/images/plus.png" alt="add reservation"></a>
+                        <div class="section-heading">
+                        <h2>List Homestay</h2>
                       </div>
                       <div class="default-table">
                         <table>
                           <thead>
                             <tr>
-                              <th>Reservation ID:</th>
-                              <th>Check-in</th>
-                              <th>Check-out</th>
-                              <th>Homestay</th>
+                              <th>Branch Name:</th>
                               <th></th>
                             </tr>
                           </thead>
                           <tbody>
                             <tr>
-                              <td>#1011</td> <!-- link view reservation -->
-                              <td>25 December 2020</td>
-                              <td>30 December 2020</td>
-                              <td>Taman Mawar Murni</td>
-                              <td><a href="custafterreservation.jsp"><img class="useme" src="assets/images/edit-1.png"></a></td>
+                              <td><a href="adminviewbranch.jsp">Taman Pokok Manga 1</a></td>
+                              <td><a href="#"><img class="useme" src="assets/images/trash-1.png">
+                                <a href="adminupdatebranch.jsp"><img class="useme" src="assets/images/edit-1.png"></a></td>
                             </tr>
                             <tr>
-                              <td>#1012</td>
-                              <td>14 December 2020</td>
-                              <td>15 December 2020</td>
-                              <td>Taman Mawar Murni</td>
-                              <td><a href="#"><img class="useme" src="assets/images/edit-1.png"></a></td>
+                              <td><a href="#">Taman Pokok Manga 2</a></td>
+                              <td><a href="#"><img class="useme" src="assets/images/trash-1.png">
+                                <a href="adminupdatebranch.jsp"><img class="useme" src="assets/images/edit-1.png"></a></td>
+                            </tr>
+                            <tr>
+                              <td><a href="#">Taman Pandan Murni</a></td>
+                              <td><a href="#"><img class="useme" src="assets/images/trash-1.png">
+                                <a href="adminupdatebranch.jsp"><img class="useme" src="assets/images/edit-1.png"></a></td>
                             </tr>
                           </tbody>
                         </table>
@@ -108,15 +103,15 @@
         &#169; 2020 Pilot. All rights reserved
     </div>
 
-    
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/transition.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
 </body>
 
 </html>

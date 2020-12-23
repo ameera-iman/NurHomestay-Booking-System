@@ -26,7 +26,7 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="adminliststaff.jsp">Staff</a>
-        <a href="adminviewbranch.jsp">Branch</a>
+        <a href="adminlistbranch.jsp">Branch</a>
         <a href="adminsalereport.jsp">Sales Report</a>
       </div>
 
@@ -52,7 +52,7 @@
                           <h1>Add new branch?</h1>
                           <!-- <p class="title">CEO & Founder, Example  TUKAQQQQQQQ</p>
                           <p>Harvard University  TUKAQQQQQQQ</p> -->
-                          <p><a href="adminviewbranch.jsp"><button>Confirm</button></a></p>
+                          <p><a href="adminlistbranch.jsp"><button>Confirm</button></a></p>
                         </div>
                   </div>
                   <div class="column-1">
@@ -86,7 +86,7 @@
                           </tr>
                       </table>
                       <br><br>
-                      <center><a href="adminviewbranch.jsp"><button>Add</button></a><a href="adminviewbranch.jsp"><button>Cancel</button></a></center>
+                      <center><a href="adminaddimage.jsp"><button>Add</button></a></center>
                     </form>
                   </div>
                 </div></section>

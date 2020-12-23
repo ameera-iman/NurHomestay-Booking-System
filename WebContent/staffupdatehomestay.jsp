@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <title>Update Homestay</title>
+    <title>Update Branch</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,9 +25,9 @@
 <body class="is-preload">
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="staffprofile.jsp">Profile</a>
-        <a href="stafflisthomestay.jsp">Homestay</a>
-        <a href="stafflistreservation.jsp">Reservation</a>
+        <a href="adminliststaff.jsp">Staff</a>
+        <a href="adminviewbranch.jsp">Branch</a>
+        <a href="adminsalereport.jsp">Sales Report</a>
       </div>
 
       <!-- Header -->
@@ -40,75 +40,74 @@
           <a href="index.jsp">Log Out</a>
         </div>
       </header>
-
-      <br><br>
-      <section class="main-banner">
-        <div class="container-fluid">
-      <div class="row">
-        <div class="column">
-            <div class="card">
-                <!-- nak buh gambaq ka??
-                <img src="img.jpg" alt="John" style="width:100%"> --> 
-               
-                <h1>TUKAQQQQQ</h1>
-                <!-- <p class="title">CEO & Founder, Example  TUKAQQQQQQQ</p>
-                <p>Harvard University  TUKAQQQQQQQ</p> -->
-                <p><a href="stafflisthomestay.jsp"><button>View</button></a></p>
-              </div>
-        </div>
-        <div class="column-1">
-            <h2> Update Homestay</h2><br/><br/>
-            <table>
-                <tr>
-                    <td class="labelsize"><label>Homestay ID</label></td>
-                    <td class="double-dot">:</td>
-                    <td>12</td>
-                </tr>
-                <tr>
-                    <td class="labelsize"><label>Homestay Name</label></td>
-                    <td class="double-dot">:</td>
-                    <td><input name="staff_name" type="text" class="form-control" id="name" placeholder="Name" required=""></td>
-                </tr>
-                <tr>
-                    <td class="labelsize"><label>Address</label></td>
-                    <td class="double-dot">:</td>
-                    <td><textarea name="cust_address" id="demo-message" placeholder="Address" rows="6"></textarea></td>
-                </tr>
-                <tr>
-                    <td class="labelsize"><label>Description</label></td>
-                    <td class="double-dot">:</td>
-                    <td><input name="cust_desc" type="text" class="form-control" id="email" placeholder="Description" required=""></td>
-                </tr>
-                <tr>
-                    <td class="labelsize"><label>Price</label></td>
-                    <td class="double-dot">:</td>
-                    <!-- <td>kalau bukan ltk null je kot</td> -->
-                    <td><input type="text" class="form-control" id="admin" placeholder="Price"></td>
-                </tr>
-            </table>
-            <br><br>
-            <center><a href="staffaddimage.jsp"><button>Next</button></a></center>
-
-        </div>
-      </div></section>
-
+  
+              <section class="main-banner">
+              <div class="container-fluid">
+              <div class="row">
+                  <div class="column">
+                    <div class="card">
+                      <!--nak buh gambaq ka??
+                      <img src="img.jpg" alt="John" style="width:100%"> 
+                      -->
+                      <h1>Staff</h1>
+                      <p class="title">Staff update branch</p>
+                      <p>View list homestay</p>
+                      <p><a href="stafflisthomestay.jsp"><button>View</button></a></p>
+                    </div>
+                  </div>
+                  <div class="column-1">
+                      <h2>Update Branch</h2><br/><br/>
+                      <form>
+                      <table>
+                          <!-- <tr>
+                              <td class="labelsize"><label>Customer ID</label></td>
+                              <td class="double-dot">:</td>
+                              <td>TUKAQQQQQQQ</td>
+                          </tr> -->
+                          <tr>
+                            <td class="labelsize"><label>Branch Name</label></td>
+                            <td class="double-dot">:</td>
+                            <td><input name="username" type="text" class="form-control" id="name" placeholder="Branch" required=""></td>
+                        </tr>
+                        <tr>
+                            <td class="labelsize"><label>Address</label></td>
+                            <td class="double-dot">:</td>
+                            <td><textarea name="branch_address" id="demo-message" placeholder="Address" rows="6"></textarea></td>
+                        </tr>
+                        <tr>
+                          <td class="labelsize"><label>Description</label></td>
+                          <td class="double-dot">:</td>
+                          <td><textarea name="description" id="demo-message" placeholder="description" rows="6"></textarea></td>
+                      </tr>
+                        <tr>
+                            <td class="labelsize"><label>Price</label></td>
+                            <td class="double-dot">:</td>
+                            <td><input name="Price" type="text" class="form-control" id="Price" placeholder="Price" required=""></td>
+                        </tr>
+                      </table>
+                      <br><br>
+                      <center><a href="staffaddimage.jsp"><button>Update</button></a></center>
+                    </form>
+                  </div></section>
+                </div>
+            </div>
+          </div>
+      </div>
+  
       <div class="footer">
-        Instagram<br><br>
-        Facebook<br><br>
-        <br><br><br>
-        &#169; 2020 Pilot. All rights reserved
-    </div>
-      
-      
-      <script>
-      function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-      }
-      
-      function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-      }
-      </script>
+          Instagram<br><br>
+          Facebook<br><br>
+          <br><br><br>
+          &#169; 2020 Pilot. All rights reserved
+      </div>
+  
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/transition.js"></script>
+      <script src="assets/js/custom.js"></script>
   </body>
-
 </html>

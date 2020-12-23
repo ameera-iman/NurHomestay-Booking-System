@@ -26,7 +26,7 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="adminliststaff.jsp">Staff</a>
-        <a href="adminviewbranch.jsp">Branch</a>
+        <a href="adminlistbranch.jsp">Branch</a>
         <a href="adminsalereport.jsp">Sales Report</a>
       </div>
 

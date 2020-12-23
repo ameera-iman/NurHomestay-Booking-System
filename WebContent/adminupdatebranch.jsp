@@ -23,23 +23,23 @@
   </head>
 
 <body class="is-preload">
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="adminliststaff.jsp">Staff</a>
-        <a href="adminviewbranch.jsp">Branch</a>
-        <a href="adminsalereport.jsp">Sales Report</a>
-      </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="adminliststaff.jsp">Staff</a>
+    <a href="adminlistbranch.jsp">Branch</a>
+    <a href="adminsalereport.jsp">Sales Report</a>
+  </div>
 
-      <!-- Header -->
-      <header id="header" style="margin-top: 0px;">
-        <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 25px;" onclick="openNav()">&#9776;</span>
-        <div class="logo">
-          <img src="assets/images/logo nurhomestay6.png">
-        </div>
-        <div class="kemana-kita">
-          <a href="index.jsp">Log Out</a>
-        </div>
-      </header>
+  <!-- Header -->
+  <header id="header" style="margin-top: 0px;">
+    <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 25px;" onclick="openNav()">&#9776;</span>
+    <div class="logo">
+      <img src="assets/images/logo nurhomestay6.png">
+    </div>
+    <div class="kemana-kita">
+      <a href="index.jsp">Log Out</a>
+    </div>
+  </header>
   
               <section class="main-banner">
               <div class="container-fluid">
@@ -51,8 +51,8 @@
                       -->
                       <h1>ADMIN</h1>
                       <p class="title">Admin update branch</p>
-                      <p>View Branch</p>
-                      <p><a href="adminviewbranch.jsp"><button>View</button></a></p>
+                      <p>list Branch</p>
+                      <p><a href="adminlistbranch.jsp"><button>View</button></a></p>
                     </div>
                   </div>
                   <div class="column-1">
@@ -86,7 +86,7 @@
                         </tr>
                       </table>
                       <br><br>
-                      <center><a href="adminviewbranch.jsp"><button>Update</button></a></center>
+                      <center><a href="adminupdateimage.jsp"><button>Update</button></a></center>
                     </form>
                   </div></section>
                 </div>

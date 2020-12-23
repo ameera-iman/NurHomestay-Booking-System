@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <title>Create Staff Profile</title>
+    <title>Update Homestay Image</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,9 +25,9 @@
 <body class="is-preload">
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="adminliststaff.jsp">Staff</a>
-        <a href="adminlistbranch.jsp">Branch</a>
-        <a href="adminsalereport.jsp">Sales Report</a>
+        <a href="staffprofile.jsp">Profile</a>
+        <a href="stafflisthomestay.jsp">Homestay</a>
+        <a href="stafflistreservation.jsp">Reservation</a>
       </div>
 
       <!-- Header -->
@@ -44,37 +44,36 @@
       <br><br>
       <section class="main-banner">
         <div class="container-fluid">
-      <div class="row">
-        <div class="column">
-            <div class="card">
-                <!-- nak buh gambaq ka??
-                <img src="img.jpg" alt="John" style="width:100%"> --> 
-               
-                <h1>TUKAQQQQQ</h1>
-                <!-- <p class="title">CEO & Founder, Example  TUKAQQQQQQQ</p>
-                <p>Harvard University  TUKAQQQQQQQ</p> -->
-                <p><a href="adminliststaff.jsp"><button>Back</button></a></p>
-              </div>
-        </div>
-        <div class="column-1">
-            <h2>Create Staff Profile</h2><br/><br/>
+      		<div class="row">
+        		<div class="column-1">
+            <h2> Update Homestay Image</h2><br/><br/>
             <table>
                 <tr>
-                    <td class="labelsize"><label>Staff ID</label></td>
+                    <td class="labelsize"><label>Add Image</label></td>
                     <td class="double-dot">:</td>
-                    <td><input name="staff_name" type="text" class="form-control" id="name" placeholder="ID" required></td>
+                    <td><input name="homestayimg" type="file" class="form-control"></td>
+                    <td><a href="#"><button>Add</button></a></td>
                 </tr>
-                <tr>
-                    <td class="labelsize"><label>Staff Password</label></td>
-                    <td class="double-dot">:</td>
-                    <td><input name="staff_phone" type="text" class="form-control" id="phoneno" placeholder="Password" required></td>
-                </tr>
-            </table>
+              </table>
+              <table>
+                <thead>
+                  <tr>
+                    <th colspan="2">Image</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#1011</td>
+                    <td><a href="#"><img class="useme" src="assets/images/trash-1.png"></a></td>
+                  </tr>
+                </tbody>
+              </table>
             <br><br>
-            <center><a href="adminliststaff.jsp"><button>Create</button></a></center>
+      			<center><a href="adminlistbranch.jsp"><button>Done</button></a></center>
 			</div>
         </div>
-      </div></section>
+      </div>
+      </section>
 
       <div class="footer">
         Instagram<br><br>
@@ -82,8 +81,9 @@
         <br><br><br>
         &#169; 2020 Pilot. All rights reserved
     </div>
-    
-    <script>
+      
+      
+      <script>
       function openNav() {
         document.getElementById("mySidenav").style.width = "250px";
       }

@@ -11,7 +11,7 @@
     <meta name="author" content="">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <title>View Branch</title>
+    <title>View Homestay</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,84 +23,82 @@
   </head>
 
 <body class="is-preload">
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="adminliststaff.jsp">Staff</a>
-        <a href="adminviewbranch.jsp">Branch</a>
-        <a href="adminsalereport.jsp">Sales Report</a>
-      </div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="adminliststaff.jsp">Staff</a>
+    <a href="adminlistbranch.jsp">Branch</a>
+    <a href="adminsalereport.jsp">Sales Report</a>
+  </div>
 
-      <!-- Header -->
-      <header id="header" style="margin-top: 0px;">
-        <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 25px;" onclick="openNav()">&#9776;</span>
-        <div class="logo">
-          <img src="assets/images/logo nurhomestay6.png">
-        </div>
-        <div class="kemana-kita">
-          <a href="index.jsp">Log Out</a>
-        </div>
-      </header>
-            
-
-            <section class="forms">
-            <h2>Branch</h2>
-              <div class="simple-ni">
-                <h2>Branch ID: TPM1</h2>
-                <a href="#"><img class="useme" src="assets/images/trash-1.png"></a><a href="adminupdatebranch.jsp"><img class="useme" src="assets/images/edit-1.png"></a>
-                <table>
-                        <!-- <div width="50px" height="60px"><img class="rounded-circle" src="assets/images/main-banner.jpg"></div> -->
-                    <tr>
-                        <td class="labelsize"><label>Branch</label></td>
-                        <td>Taman Pandan Murni</td>
-                    </tr>
-                    <tr>
-                        <td class="labelsize"><label>Address></label></td>
-                        <td>No 13, Jalan Murni 3, Taman Pandan Murni</td>
-                    </tr>
-                    <tr>
-                        <td class="labelsize"><label>Description</label></td>
-                        <td>3 Aircond 5 Kipas 3 Bilik Air 4 Bilik</td> 
-                    </tr>
-                    <tr>
-                        <td class="labelsize"><label>Price</label></td>
-                        <td>RM 100.00</td>
-                    </tr>
-                </table>
-              </div>
-              <br/><br/>
-                  <!-- second row -->
-              <div class="simple-ni">
-                <h2>Branch ID: TM1</h2>
-                <a href="#"><img class="useme" src="assets/images/trash-1.png"></a><a href="#"><img class="useme" src="assets/images/edit-1.png"></a>
-                <table>
-                        <!-- <div width="50px" height="60px"><img class="rounded-circle" src="assets/images/main-banner.jpg"></div> -->
-                        <tr>
-                            <td class="labelsize"><label>Branch</label></td>
-                            <td>Taman Mangga</td>
-                        </tr>
-                        <tr>
-                            <td class="labelsize"><label>Address></label></td>
-                            <td>No 45, Jalan Mangga 8, Taman Mangga</td>
-                        </tr>
-                        <tr>
-                            <td class="labelsize"><label>Description</label></td>
-                            <td>3 Aircond 5 Kipas 3 Bilik Air 4 Bilik</td> 
-                        </tr>
-                        <tr>
-                            <td class="labelsize"><label>Price</label></td>
-                            <td>RM 150.00</td>
-                        </tr>
-                </table>
-              </div>
-            </section>
-
-    <div class="footer">
-        Instagram<br><br>
-        Facebook<br><br>
-        <br><br><br>
-        &#169; 2020 Pilot. All rights reserved
+  <!-- Header -->
+  <header id="header" style="margin-top: 0px;">
+    <span style="font-size:36px;cursor:pointer; margin-left: 20px;margin-top: 25px;" onclick="openNav()">&#9776;</span>
+    <div class="logo">
+      <img src="assets/images/logo nurhomestay6.png">
     </div>
-      
+    <div class="kemana-kita">
+      <a href="index.jsp">Log Out</a>
+    </div>
+  </header>
+
+      <br><br>
+      <section class="main-banner">
+        <div class="container-fluid">
+      <div class="row">
+      <div class="column">
+            <div class="card">
+                <!-- nak buh gambaq ka??
+                <img src="img.jpg" alt="John" style="width:100%"> --> 
+               
+                <h1>TUKAQQQQQ</h1>
+                <!-- <p class="title">CEO & Founder, Example  TUKAQQQQQQQ</p>
+                <p>Harvard University  TUKAQQQQQQQ</p> -->
+                <p><a href="adminlistbranch.jsp"><button>Back</button></a></p>
+              </div>
+        </div>
+        <div class="column-1">
+            <h2>View Homestay</h2><br/><br/>
+            <table>
+                <tr>
+                    <td colspan="3"><img src="assets/images/featured_post_01.jpg"></td>
+                </tr>
+                <tr>
+                    <td class="labelsize"><label>Homestay ID</label></td>
+                    <td class="double-dot">:</td>
+                    <td>123</td>
+                </tr>
+                <tr>
+                    <td class="labelsize"><label>Homestay Name</label></td>
+                    <td class="double-dot">:</td>
+                    <td>Taman Mawar Murni</td>
+                </tr>
+                <tr>
+                    <td class="labelsize"><label>Address</label></td>
+                    <td class="double-dot">:</td>
+                    <td>No. 4, Jalan PM 1B,Taman Pokok Mangga,75250 Melaka</td>
+                </tr>
+                <tr>
+                    <td class="labelsize"><label>Desc</label></td>
+                    <td class="double-dot">:</td>
+                    <td>It is near around the Zoo Melaka</td>
+                </tr>
+                <tr>
+                    <td class="labelsize"><label>Price</label></td>
+                    <td class="double-dot">:</td>
+                    <td>RM 500 = 1 night</td>
+                </tr>
+            </table>
+            </div>
+        </div>
+      </div>
+      </section>
+
+		<div class="footer">
+		  Instagram<br><br>
+		  Facebook<br><br>
+		  <br><br><br>
+		  &#169; 2020 Pilot. All rights reserved
+		</div>
       
       <script>
       function openNav() {
@@ -112,5 +110,4 @@
       }
       </script>
   </body>
-
 </html>
