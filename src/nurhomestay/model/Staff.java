@@ -2,15 +2,15 @@ package nurhomestay.model;
 
 public class Staff {
 
-	private int staffId;
+	private String staffId;
 	private String staffName;
 	private String phoneNo;
 	private String address;
 	private String email;
 	private String password;
-	private int adminId;
+	private String adminId;
 	
-	public Staff(int staffid,String staffName,String phoneNo,String address,String email,String password,int adminId)
+	public Staff(String staffid,String staffName,String phoneNo,String address,String email,String password,String adminId)
 	{
 		this.staffId = staffId;
 		this.staffName = staffName;
@@ -20,10 +20,10 @@ public class Staff {
 		this.password = password;
 		this.adminId = adminId;	
 	}
-	public int getStaffId() {
+	public String getStaffId() {
 		return staffId;
 	}
-	public void setStaffId(int staffId) {
+	public void setStaffId(String staffId) {
 		this.staffId = staffId;
 	}
 	public String getStaffName() {
@@ -56,10 +56,10 @@ public class Staff {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	public int getAdminId() {
+	public String getAdminId() {
 		return adminId;
 	}
-	public void setAdminId(int adminId) {
+	public void setAdminId(String adminId) {
 		this.adminId = adminId;
 	}
 	
